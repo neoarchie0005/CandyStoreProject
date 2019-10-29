@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Candy Store Project</string>
+
+    <!-- Products -->
+    <string name="product">OUR PRODUCTS</string>
+    <string name="choco">* Chocolate</string>
+    <string name="milk">* Milky</string>
+    <string name="strawberry">* Strawberry</string>
+    <string name="vanila">* Vanila</string>
+</resources>

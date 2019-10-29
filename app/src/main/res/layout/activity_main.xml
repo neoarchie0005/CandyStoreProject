@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/item_photo_image"
+            style="@style/listItem_imageview" />
+
+        <TextView
+            android:id="@+id/text_view_line"
+            android:layout_width="230dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:background="#000000"
+            android:layout_below="@id/item_photo_image"/>
+
+        <TextView
+            android:id="@+id/products"
+            android:layout_below="@id/text_view_line"
+            style="@style/products"/>
+
+        <TextView
+            android:id="@+id/text_view_line1"
+            android:layout_width="230dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:background="#000000"
+            android:layout_below="@id/products"/>
+
+        <TextView
+            android:id="@+id/choko"
+            android:layout_below="@id/text_view_line1"
+            style="@style/choco"/>
+
+        <TextView
+            android:id="@+id/milk"
+            android:layout_below="@id/choko"
+            style="@style/milky"/>
+
+        <TextView
+            android:id="@+id/strawberry"
+            android:layout_below="@id/milk"
+            style="@style/strawberry"/>
+
+        <TextView
+            android:id="@+id/vanila"
+            android:layout_below="@id/strawberry"
+            style="@style/vanila"/>
+
+</RelativeLayout>
